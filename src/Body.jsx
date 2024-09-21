@@ -1,20 +1,30 @@
-import Produto from "./Produto";
+import React from "react";
+import "./App.css";
+import Kits from "./Kits";
+import Fraldinha from "./Fraldinha";
+import Toalha from "./Toalha";
+import Necessaire from "./Necessaire";
+import Uniformes from "./Uniformes";
+import Cozinha from "./Cozinha";
 
 function Body() {
   return (
     <div>
-      <h1>Bordados da Bene</h1>
-      <p>Criamos</p>
-      <h2>Transformando ideias em sorrisos desde 2020.</h2>
-      <h3>
-        Trabalhamos somente com os melhores materiais para entregar para vocês
-        produtos de qualidade. Cada peça é feita com muito amor! Conheça um
-        pouco do nosso trabalho:
-      </h3>
+      <h1>
+        A Bordados da Be é uma empresa que produz peças de qualidade, com
+        acabamento impecável e feitas com muito amor.
+      </h1>
+      <h2>Conheça nossos produtos:</h2>
       <div>
-        <Produto />
+        <Fraldinha />
+        <Kits />
+        <Toalha />
+        <Necessaire />
+        <Uniformes />
+        <Cozinha />
       </div>
     </div>
   );
 }
+
 export default Body;

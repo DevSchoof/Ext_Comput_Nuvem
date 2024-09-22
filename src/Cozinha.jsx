@@ -8,7 +8,7 @@ const Cozinha = () => {
     infinite: true,
     speed: 500,
     slidesToShow: 5, // Mostrar 3 imagens simultaneamente
-    slidesToScroll: 3,
+    slidesToScroll: 5,
     arrows: true, // Adicionar setas de navegação
   };
 

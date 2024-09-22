@@ -7,8 +7,8 @@ const Kits = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 7, // Mostrar 3 imagens simultaneamente
-    slidesToScroll: 7,
+    slidesToShow: 5, // Mostrar 3 imagens simultaneamente
+    slidesToScroll: 5,
     arrows: true, // Adicionar setas de navegação
   };
 

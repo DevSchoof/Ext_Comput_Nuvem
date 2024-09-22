@@ -11,7 +11,7 @@ function Body() {
   return (
     <div>
       <h1>
-        A Bordados da Be é uma empresa que produz peças de qualidade, com
+        Bordados da Be é uma empresa que produz peças de qualidade, com
         acabamento impecável e feitas com muito amor.
       </h1>
       <h2>Conheça nossos produtos:</h2>

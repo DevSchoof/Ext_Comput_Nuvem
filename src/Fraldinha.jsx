@@ -8,7 +8,7 @@ const Fraldinha = () => {
     infinite: true,
     speed: 500,
     slidesToShow: 5, // Mostrar 3 imagens simultaneamente
-    slidesToScroll: 1,
+    slidesToScroll: 5,
     arrows: true, // Adicionar setas de navegação
   };
 

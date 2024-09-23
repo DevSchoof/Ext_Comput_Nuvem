@@ -86,8 +86,8 @@ body {
   transition: transform 0.5s ease;
 }
 
-.container img:hover {
-  transform: scale(1.05);
+.carousel-container img:hover {
+  transform: scale(2);
 }
 
 .container h2 {
@@ -168,7 +168,7 @@ iframe {
 
   .carousel-container {
     max-width: 800px;
-    max-height: 100px;
+    max-height: 200px;
     padding-top: 10px;
     padding-bottom: 10px;
     margin: 10px;

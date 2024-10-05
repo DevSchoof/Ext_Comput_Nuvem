@@ -16,10 +16,10 @@ function Body() {
       </h1>
       <h2>Conheça nossos produtos:</h2>
       <div>
-        <Fraldinha />
-        <Kits />
         <Toalha />
         <Necessaire />
+        <Fraldinha />
+        <Kits />
         <Uniformes />
         <Cozinha />
       </div>

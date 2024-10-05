@@ -10,7 +10,7 @@ const UrlFacebook =
   "https://www.facebook.com/beneconfeccoesbraganca?mibextid=ZbWKwL";
 const UrlInstagram = "https://www.instagram.com/bordados_da_be?igsh=aW8xem1he";
 const UrlWhatsapp = "https://wa.me/5535999555579";
-const UrlTelegram = "https://t.me/5535999555579";
+const UrlTelegram = "https://t.me/+5535999555579";
 
 function Header() {
   return (

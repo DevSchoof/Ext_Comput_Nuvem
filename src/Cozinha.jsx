@@ -4,7 +4,7 @@ import "./App.css"; // Certifique-se de que o CSS importado está correto
 
 function Cozinha() {
   return (
-    <Produtos title="Fraldinha">
+    <Produtos title="Cozinha">
       <div>
         <img src="/PanoPrato1.png" alt="Pano de Prato 1" />
         <p className="legend">Pano de Prato 1</p>

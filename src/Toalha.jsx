@@ -47,15 +47,15 @@ function Toalha() {
       </div>
       <div>
         <img src="/ToalhaBebe1.png" alt="Toalha Bebe 1" />
-        <p className="legend">Toalha Bebe 1</p>
+        <p className="legend">Toalha Bebê 1</p>
       </div>
       <div>
         <img src="/ToalhaBebe2.png" alt="Toalha Bebe 2" />
-        <p className="legend">Toalha Bebe 2</p>
+        <p className="legend">Toalha Bebê 2</p>
       </div>
       <div>
         <img src="/ToalhaBebe3.jpeg" alt="Toalha Bebe 3" />
-        <p className="legend">Toalha Bebe 3</p>
+        <p className="legend">Toalha Bebê 3</p>
       </div>
       <div>
         <img src="/ToalhaEucaristia.jpeg" alt="Toalha Eucaristia" />

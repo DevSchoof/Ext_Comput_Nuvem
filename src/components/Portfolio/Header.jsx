@@ -4,7 +4,7 @@ import Facebook from "/Facebook.png";
 import Instagram from "/Instagram.png";
 import Whatsapp from "/Whatsapp.png";
 import Telegram from "/Telegram.png";
-import "./App.css";
+import "./Portfolio.css";
 
 const UrlFacebook =
   "https://www.facebook.com/beneconfeccoesbraganca?mibextid=ZbWKwL";

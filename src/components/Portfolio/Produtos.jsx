@@ -1,6 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
-import "./App.css";
+import "./Portfolio.css";
 
 function Produtos({ title, children }) {
   const settings = {
@@ -11,14 +11,14 @@ function Produtos({ title, children }) {
     slidesToScroll: 5,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 768,
         settings: {
           slidesToShow: 4,
           slidesToScroll: 4,
         },
       },
       {
-        breakpoint: 600,
+        breakpoint: 480,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1,

@@ -1,6 +1,6 @@
 import React from "react";
 import Produtos from "./Produtos";
-import "./App.css";
+import "./Portfolio.css";
 
 function Kits() {
   return (

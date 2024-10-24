@@ -4,12 +4,12 @@
 h1 {
   color: rgb(0, 0, 0);
   text-align: auto;
-  font-size: 1.1em;
+  font-size: 2em;
   padding-top: 35px;
 }
 
 h2 {
-  font-size: 1em;
+  font-size: 2em;
 }
 
 header {
@@ -47,6 +47,29 @@ header {
   width: 60px;
   height: 60px;
   margin: 0 10px;
+}
+
+.social-icons img:hover {
+  rotate: 360deg;
+  transition: 0.9s ease;
+}
+
+.btn-back {
+  background-color: silver;
+  color: black;
+  padding: 16px 20px;
+  margin-top: 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.btn-back:hover {
+  background-color: #555;
+  color: white;
 }
 
 body {
@@ -141,7 +164,7 @@ iframe {
   border: 0;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   h1,
   h2 {
     font-size: 80%;
@@ -212,7 +235,7 @@ iframe {
   border: 0;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 480px) {
   header {
     padding: 5px 10px;
     max-height: 100px;

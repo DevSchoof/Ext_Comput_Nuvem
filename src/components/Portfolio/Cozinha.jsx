@@ -1,6 +1,6 @@
 import React from "react";
 import Produtos from "./Produtos";
-import "./App.css"; // Certifique-se de que o CSS importado está correto
+import "./Portfolio.css"; // Certifique-se de que o CSS importado está correto
 
 function Cozinha() {
   return (

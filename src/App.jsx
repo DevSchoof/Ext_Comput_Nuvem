@@ -1,26 +1,15 @@
-import { useEffect } from "react";
-import ReactGA from "react-ga4";
-import Body from "./Body";
-import Footer from "./Footer";
-import Header from "./Header";
-import "./App.css";
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import Land from "./pages/Land";
+import Portfolio from "./pages/Portfolio";
 
-function App() {
-  // Inicializa o Google Analytics com o ID da métrica
-  useEffect(() => {
-    ReactGA.initialize("G-RYP4CHXGTF");
-
-    // Envia uma visualização de página no carregamento inicial
-    ReactGA.send({ hitType: "pageview", page: window.location.pathname });
-  }, []);
-
+const App = () => {
   return (
-    <>
-      <Header />
-      <Body />
-      <Footer />
-    </>
+    <Routes>
+      <Route path="/" element={<Land />} />
+      <Route path="/portfolio" element={<Portfolio />} />
+    </Routes>
   );
-}
+};
 
 export default App;

@@ -1,6 +1,5 @@
 import React from "react";
 import Produtos from "./Produtos";
-import "./App.css";
 
 function Necessaire() {
   return (

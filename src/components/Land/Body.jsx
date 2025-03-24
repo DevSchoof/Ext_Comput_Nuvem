@@ -33,7 +33,7 @@ function Body() {
             </button>
           </a>
           <a
-            href="https://wa.me/5535999555579"
+            href="https://wa.me/5511915625606"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -43,7 +43,7 @@ function Body() {
             </button>
           </a>
           <a
-            href="https://t.me/+5535999555579"
+            href="https://t.me/+5511915625606"
             target="_blank"
             rel="noopener noreferrer"
           >
